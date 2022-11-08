@@ -1,5 +1,13 @@
 # AlexNet-TensorFlow-with-Weights
 Hola, este proyecto busca
+
+
+1. Visual Studio
+2. Cuda 11.3.1
+3. TF 2.10
+
+
+
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 <!--
