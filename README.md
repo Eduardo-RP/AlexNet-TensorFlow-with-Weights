@@ -2,11 +2,26 @@
 Hola, este proyecto busca
 
 
-1. Visual Studio
-2. Cuda 11.3.1
-3. TF 2.10
+1. Visual Studio 2015,2017,2019, and 2022 https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-150
+2. Cuda 11.3.1 https://developer.nvidia.com/cuda-11-3-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local
+3. TF 2.10 en anaconda: 
+ conda install –c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+ pip install tensorflow
 
+Los pesos y la arquitectura se basan de:
+https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/
 
+Los pesos estan disponibles en:
+https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy
+
+La arquitectura esta disponible en:
+https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/myalexnet_forward_newtf.py
+
+Imagenes de ImageNet
+https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data
+
+Artículo de AlexNet
+https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
