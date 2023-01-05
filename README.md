@@ -1,9 +1,6 @@
 # AlexNet-TensorFlow-with-Weights
-Since 2012, <a href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a> is one of the most used architectures in Deep Learning for image classification. This model was trained using <a href="https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data
-">ImageNet</a> dataset. The pretrained AlexNet model can be found in <a href="https://pytorch.org/hub/pytorch_vision_alexnet/">PyTorch</a>, however, it doesn´t exist a guide for Tensorflow implementation. Therefore, this repo include a guide for that purpose.
 
-
-
+<!-- 
 1. Visual Studio 2015,2017,2019, and 2022 https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-150
 2. Cuda 11.3.1 https://developer.nvidia.com/cuda-11-3-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local
 3. TF 2.10 en anaconda: 
@@ -24,7 +21,7 @@ https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data
 
 Artículo de AlexNet
 https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
-
+GETTING STARTED -->
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -95,7 +92,6 @@ Armando Reyes - [LinkedIn](https://www.linkedin.com/in/armando-reyes-5782371ba/)
 
 Eduardo Rivas - [LinkedIn](https://www.linkedin.com/in/eduardo-rivas-posada/) - eduardo.rivasp@ieee.org
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
