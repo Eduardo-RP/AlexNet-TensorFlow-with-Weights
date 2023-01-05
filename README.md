@@ -150,6 +150,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 Since 2012, <a href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a> is one of the most used architectures in Deep Learning for image classification. This model was trained using <a href="https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data
 ">ImageNet</a> dataset. The pretrained AlexNet model can be found in <a href="https://pytorch.org/hub/pytorch_vision_alexnet/">PyTorch</a>, however, it doesn´t exist a guide for Tensorflow implementation. Therefore, this repo include a guide for that purpose.
 
+To generate our pretrained-AlexNet for Keras/TensorFlow, we used the weights found <a href="https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/">here</a> and can be downloaded from <a href="https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy">here</a>. 
+
 We tested pretrained AlexNet using Anaconda (2.3.1) and Spyder (5.2.2 and 5.3.3) with the next dependencies on Windows 10 in a NVIDIA GeForce RTX 3060 GPU and NVIDIA GeForce RTX 2070 Super. 
 
 ### Installation
@@ -182,27 +184,8 @@ Make sure that you are working in the environment just created verifying the nam
   ```sh
   pip install tensorflow==2.10
   ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
@@ -219,10 +202,6 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    alexnet_model.summary()
    ```
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
