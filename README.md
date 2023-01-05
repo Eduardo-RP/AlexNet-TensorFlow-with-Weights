@@ -208,6 +208,20 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+1. Download our <a href="https://drive.google.com/file/d/1cv9Z_p6xMf9DlcN7RExvpuYswEFczsmD/view?usp=sharing">pretrained-AlexNet</a> for Keras/TensorFlow implementation.
+
+2. Read the h5 file from Spyder with the following.
+   ```sh
+   import keras
+   import tensorflow as tf
+   import keras.layers as layers
+   alexnet_model = tf.keras.models.load_model('/.../alexnet.h5')
+   ```
+3. Corroborate the loading of our model.
+   ```sh
+   alexnet_model.summary()
+   ```
+
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
