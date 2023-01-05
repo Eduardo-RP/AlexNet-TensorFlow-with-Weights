@@ -167,7 +167,18 @@ c) In the appering window assign a name for your new environment, select Python 
 ![Env_image](https://user-images.githubusercontent.com/117695726/210860873-7069ee88-d6f7-48a3-bcbf-34545e961379.png)
 
 
-4. Install TensorFlow 2.10 in the environment just created in Anaconda.
+4. Open Anaconda Prompt Terminal. This step can be performed seeking in Windows searcher "Anaconda Prompt". Or with the following guide in Anaconda Navigator. Note: in this repo our new environment was named "redes2".
+
+Go to "Environments", under the name of your new environment select "Play" button and "Open Terminal".
+
+![AnPrompt-image](https://user-images.githubusercontent.com/117695726/210862581-a128676f-441d-4e24-a58b-d1a69b3289fa.png)
+
+Make sure that you are working in the environment just created verifying the name in parenthesis showed in the Terminal.
+
+![Env_terminal](https://user-images.githubusercontent.com/117695726/210863091-c6f77dbc-b208-480f-93b6-2a9abe2a0bd3.png)
+
+
+5. Install TensorFlow 2.10 in the environment just created in Anaconda with Anaconda Prompt. You can initiate the Anaconda Prompt either with Anaconda Navigator or with Anac
   ```sh
   npm hola.bash
   ```
