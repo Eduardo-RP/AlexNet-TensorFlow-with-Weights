@@ -42,7 +42,7 @@ We tested our pretrained-AlexNet using Anaconda (2.3.1) and Spyder (5.2.2 and 5.
 2. Install <a href="https://developer.nvidia.com/cuda-11-3-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local">CUDA 11.3.1.</a> This step is crucial because AlexNet arquitecture was designed with the delineation of responsabilities between two GPUs. Nevertheless, by explicit installing CUDA it allows to implement AlexNet using just one GPU.
 3. Create a new environment in Anaconda.
 
-a) Go to "Environments" in Anaconda Navigator.
+<span class="tab"></span>a) Go to "Environments" in Anaconda Navigator.
 
 b) Go to "Create".
 
