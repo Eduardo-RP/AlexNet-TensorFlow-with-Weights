@@ -175,7 +175,7 @@ Go to "Environments", under the name of your new environment select "Play" butto
 
 Make sure that you are working in the environment just created verifying the name in parenthesis showed in the Terminal.
 
-![Env_terminal](https://user-images.githubusercontent.com/117695726/210863091-c6f77dbc-b208-480f-93b6-2a9abe2a0bd3.png)
+![Env_terminal](https://user-images.githubusercontent.com/117695726/210863280-716f7ee5-9164-4e92-8ac6-91dd0a5b6e69.png)
 
 
 5. Install TensorFlow 2.10 in the environment just created in Anaconda with Anaconda Prompt. You can initiate the Anaconda Prompt either with Anaconda Navigator or with Anac
