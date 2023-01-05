@@ -212,9 +212,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 2. Read the h5 file from Spyder with the following.
    ```sh
-   import keras
    import tensorflow as tf
-   import keras.layers as layers
    alexnet_model = tf.keras.models.load_model('/.../alexnet.h5')
    ```
 3. Corroborate the loading of our model.
