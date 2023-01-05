@@ -148,11 +148,11 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ## Getting Started
 
 Since 2012, <a href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a> is one of the most used architectures in Deep Learning for image classification. This model was trained using <a href="https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data
-">ImageNet</a> dataset. The pretrained AlexNet model can be found in <a href="https://pytorch.org/hub/pytorch_vision_alexnet/">PyTorch</a>, however, it doesn´t exist a guide for Tensorflow implementation. Therefore, this repo include a guide for that purpose.
+">ImageNet</a> dataset. The pretrained-AlexNet model can be found in <a href="https://pytorch.org/hub/pytorch_vision_alexnet/">PyTorch</a>, however, it doesn´t exist a guide for Tensorflow implementation. Therefore, this repo include a guide for that purpose.
 
-To generate our pretrained-AlexNet for Keras/TensorFlow, we used the weights found <a href="https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/">here</a> and can be downloaded from <a href="https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy">here</a>. 
+To generate our pretrained-AlexNet for Keras/TensorFlow, we used the weights found <a href="https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/">here</a> and can be downloaded from <a href="https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy">here</a>. Nonetheless, to implement this version of pretrained-AlexNet you have to load the whole architecture and assign the weights to each layer. Thus, for a cleaner implementation of the pretrained-AlexNet model we proposed this repo with the pretrained-AlexNet model in .h5 format.
 
-We tested pretrained AlexNet using Anaconda (2.3.1) and Spyder (5.2.2 and 5.3.3) with the next dependencies on Windows 10 in a NVIDIA GeForce RTX 3060 GPU and NVIDIA GeForce RTX 2070 Super. 
+We tested our pretrained-AlexNet using Anaconda (2.3.1) and Spyder (5.2.2 and 5.3.3) with the next dependencies on Windows 10 in a NVIDIA GeForce RTX 3060 GPU and NVIDIA GeForce RTX 2070 Super. 
 
 ### Installation
 
