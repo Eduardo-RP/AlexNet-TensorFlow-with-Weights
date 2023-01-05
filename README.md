@@ -1,5 +1,6 @@
 # AlexNet-TensorFlow-with-Weights
-Since 2012, <a href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a> is one of the most used architectures in Deep Learning for image classification. 
+Since 2012, <a href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a> is one of the most used architectures in Deep Learning for image classification. This model was trained with the <a href="https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data
+">ImageNet</a> dataset. 
 Celebrating the This repo includes 
 
 1. Visual Studio 2015,2017,2019, and 2022 https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-150
