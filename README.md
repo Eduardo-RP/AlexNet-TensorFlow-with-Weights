@@ -61,6 +61,7 @@ Make sure that you are working in the environment just created verifying the nam
 
 5. Install TensorFlow 2.10 in the environment just created in Anaconda with Anaconda Prompt.
   ```sh
+  conda install –c conda-forge cudatoolkit=11.2 cudnn=8.1.0
   pip install tensorflow==2.10
   ```
   
