@@ -36,7 +36,9 @@ We tested our pretrained-AlexNet using Anaconda (2.3.1) and Spyder (5.2.2 and 5.
 ### Installation
 
 1. Install <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-150">Visual Studio 2015,2017,2019, and 2022.</a> 
-2. Install <a href="https://developer.nvidia.com/cuda-11-3-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local">CUDA 11.3.1.</a> This step is crucial because AlexNet arquitecture was designed with the delineation of responsabilities between two GPUs. Nevertheless, by explicit installing CUDA it allows to implement AlexNet using just one GPU.
+2. Install <a href="https://developer.nvidia.com/cuda-11-3-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local">CUDA 11.3.1.</a> This step is crucial because AlexNet arquitecture was designed with the delineation of responsabilities between two GPUs. Nevertheless, by explicit installing CUDA it allows to implement AlexNet using just one GPU. 
+Note: First check if you have preinstalled a CUDA version before, if not just install as above. In the case that you have a CUDA version, you need to change a ptxas.exe file from your other CUDA version to the new one installed. You can check if you have a CUDA installed in C:/ProgramFiles/NVIDIA GPU Computing Toolkit/CUDA/.
+
 3. Create a new environment in Anaconda.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) Go to "Environments" in Anaconda Navigator.
