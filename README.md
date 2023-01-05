@@ -159,7 +159,9 @@ We tested pretrained AlexNet using Anaconda (2.3.1) and Spyder (5.2.2 and 5.3.3)
 3. Create a new environment in Anaconda.
 
 a) Go to "Environments" in Anaconda Navigator.
+
 b) Go to "Create".
+
 c) In the appering window assign a name for your new environment, select Python package 3.7.13, and create the new environment.
 
 ![Env_image](https://user-images.githubusercontent.com/117695726/210860873-7069ee88-d6f7-48a3-bcbf-34545e961379.png)
