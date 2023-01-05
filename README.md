@@ -64,8 +64,6 @@ Make sure that you are working in the environment just created verifying the nam
   pip install tensorflow==2.10
   ```
   
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -82,8 +80,6 @@ Make sure that you are working in the environment just created verifying the nam
    alexnet_model.summary()
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTACT -->
 ## Contact
@@ -91,7 +87,4 @@ Make sure that you are working in the environment just created verifying the nam
 Armando Reyes - [LinkedIn](https://www.linkedin.com/in/armando-reyes-5782371ba/) - reyesarmando.reyes@gmail.com
 
 Eduardo Rivas - [LinkedIn](https://www.linkedin.com/in/eduardo-rivas-posada/) - eduardo.rivasp@ieee.org
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
