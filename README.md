@@ -88,3 +88,4 @@ Armando Reyes - [LinkedIn](https://www.linkedin.com/in/armando-reyes-5782371ba/)
 
 Eduardo Rivas - [LinkedIn](https://www.linkedin.com/in/eduardo-rivas-posada/) - eduardo.rivasp@ieee.org
 
+Note: both authors contributed equally in this project. :smiley:
