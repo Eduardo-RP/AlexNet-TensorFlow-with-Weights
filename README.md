@@ -157,7 +157,12 @@ We tested pretrained AlexNet using Anaconda (2.3.1) and Spyder (5.2.2 and 5.3.3)
 1. Install <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-150">Visual Studio 2015,2017,2019, and 2022.</a> 
 2. Install <a href="https://developer.nvidia.com/cuda-11-3-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local">CUDA 11.3.1.</a> This step is crucial because AlexNet arquitecture was designed with the delineation of responsabilities between two GPUs. Nevertheless, by explicit installing CUDA it allows to implement AlexNet using just one GPU.
 3. Create a new environment in Anaconda.
-![Env_image](https://user-images.githubusercontent.com/117695726/210860604-cf8fc72c-a482-45bd-a703-8f878a6bc235.png)
+
+a) Go to "Environments" in Anaconda Navigator.
+b) Go to "Create".
+c) In the appering window assign a name for your new environment, select Python package 3.7.13, and create the new environment.
+
+![Env_image](https://user-images.githubusercontent.com/117695726/210860873-7069ee88-d6f7-48a3-bcbf-34545e961379.png)
 
 
 4. Install TensorFlow 2.10 in the environment just created in Anaconda.
