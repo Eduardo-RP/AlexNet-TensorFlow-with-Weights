@@ -1,8 +1,8 @@
 # AlexNet-TensorFlow-with-Weights
 Since 2012, <a href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a> is one of the most used architectures in Deep Learning for image classification. This model was trained using <a href="https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data
-">ImageNet</a> dataset. The pretrained AlexNet model can be found in <a href="https://pytorch.org/hub/pytorch_vision_alexnet/">PyTorch</a>, however it doesn´t exist a guide for Tensorflow implementation. Therefore, this repo include a guide for that purpose.
+">ImageNet</a> dataset. The pretrained AlexNet model can be found in <a href="https://pytorch.org/hub/pytorch_vision_alexnet/">PyTorch</a>, however, it doesn´t exist a guide for Tensorflow implementation. Therefore, this repo include a guide for that purpose.
 
-Celebrating the This repo includes 
+
 
 1. Visual Studio 2015,2017,2019, and 2022 https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-150
 2. Cuda 11.3.1 https://developer.nvidia.com/cuda-11-3-1-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local
@@ -147,15 +147,16 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Since 2012, <a href="https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf">AlexNet</a> is one of the most used architectures in Deep Learning for image classification. This model was trained using <a href="https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data
+">ImageNet</a> dataset. The pretrained AlexNet model can be found in <a href="https://pytorch.org/hub/pytorch_vision_alexnet/">PyTorch</a>, however, it doesn´t exist a guide for Tensorflow implementation. Therefore, this repo include a guide for that purpose.
+
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+We tested pretrained AlexNet using Spyder (5.2.2 and 5.3.3) and Anaconda (2.3.1) with the next dependencies on Windows 10. 
+* Visual Studio 2015,2017,2019, and 2022
   ```sh
-  npm install npm@latest -g
+  https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-150
   ```
 
 ### Installation
