@@ -52,11 +52,11 @@ We tested our pretrained-AlexNet using Anaconda (2.3.1) and Spyder (5.2.2 and 5.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Go to "Environments", under the name of your new environment select "Play" button and "Open Terminal".
 
-![AnPrompt-image](https://user-images.githubusercontent.com/117695726/210862581-a128676f-441d-4e24-a58b-d1a69b3289fa.png)
+![AnPrompt-image](https://user-images.githubusercontent.com/117695726/210872904-9eef9672-b76f-473a-a96c-4da596062056.png)
 
 Make sure that you are working in the environment just created verifying the name in parenthesis showed in the Terminal. As it is shown next.
 
-![Env_terminal](https://user-images.githubusercontent.com/117695726/210863280-716f7ee5-9164-4e92-8ac6-91dd0a5b6e69.png)
+![Env_terminal](https://user-images.githubusercontent.com/117695726/210872873-07e06405-955d-46be-9281-afa0cd9995de.png)
 
 
 5. Install TensorFlow 2.10 in the environment just created in Anaconda with Anaconda Prompt.
