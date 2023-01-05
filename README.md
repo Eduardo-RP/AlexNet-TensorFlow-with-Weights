@@ -1,4 +1,4 @@
-# AlexNet-TensorFlow-with-Weights
+# AlexNet TensorFlow with Weights h5
 
 <!-- 
 1. Visual Studio 2015,2017,2019, and 2022 https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-150
